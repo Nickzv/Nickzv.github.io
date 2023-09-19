@@ -77,7 +77,7 @@ section.page-1{
     position: absolute;
     width: 30px;
     height: 30px;
-    background: url('img/sol-mode.png');
+    background: url('sol-mode.png');
     background-color: #000000;
     background-size: contain;
     border-radius: 20px;
@@ -138,7 +138,7 @@ section.page-1{
     position: absolute;
     margin-bottom: 50px;
     bottom: 0;
-    background-image: url(img/onda.png );
+    background-image: url('onda.png');
     background-size: 1000px 100px;
     animation: ondaAnimada 5s ease-in-out infinite alternate;
 }
@@ -223,7 +223,7 @@ section.page-1{
     width: 40px; 
     height: 40px; 
     display: inline-block; 
-    background-image: url('img/linkedin.png'); 
+    background-image: url('linkedin.png'); 
     background-size: cover; 
 }
 
@@ -231,7 +231,7 @@ section.page-1{
     width: 40px; 
     height: 40px; 
     display: inline-block; 
-    background-image: url('img/github.png'); 
+    background-image: url('github.png'); 
     background-size: cover; 
 
 }
@@ -239,14 +239,14 @@ section.page-1{
     width: 40px; 
     height: 40px; 
     display: inline-block; 
-    background-image: url('img/whatsapp.png'); 
+    background-image: url('whatsapp.png'); 
     background-size: cover; 
 }
 .icon-4{
     width: 40px; 
     height: 40px; 
     display: inline-block; 
-    background-image: url('img/mail.png'); 
+    background-image: url('mail.png'); 
     background-size: cover; 
 
 }
