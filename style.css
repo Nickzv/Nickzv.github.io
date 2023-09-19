@@ -303,7 +303,7 @@ section.page-1{
 
     .btn-mode:before {
         left: 60px;
-        background: url('img/lua-mode.svg');
+        background: url('lua-mode.svg');
         background-color: #ffffff;
         background-size: cover;
     }
@@ -325,7 +325,7 @@ section.page-1{
         color: #a4baff;
     }
     .onda{
-        background-image: url(img/onda-dark.png );
+        background-image: url(onda-dark.png );
     }
     #onda1{
         z-index: 1000;
@@ -363,7 +363,7 @@ section.page-1{
         width: 40px; 
         height: 40px; 
         display: inline-block; 
-        background-image: url('img/github.png'); 
+        background-image: url('github.png'); 
         background-size: cover;
 
     }
