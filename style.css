@@ -415,8 +415,74 @@ section.page-1{
   }
   
 
+  @media (max-width: 768px) {
+    .header-nav {
+      gap: 20px; /* Reduza o espaçamento entre os itens do menu */
+    }
+  
+    .ul-nav {
+      gap: 20px; /* Reduza o espaçamento entre os itens do menu */
+    }
+  
+    .btn-mode {
+      width: 40px; /* Reduza o tamanho do botão */
+      height: 20px; /* Reduza o tamanho do botão */
+    }
+  
+    .btn-mode:before {
+      width: 20px; /* Reduza o tamanho do ícone do botão */
+      height: 20px; /* Reduza o tamanho do ícone do botão */
+    }
+  
+    .apresentacao {
+      margin-top: 20px; /* Reduza a margem superior */
+      gap: 20px; /* Reduza o espaçamento entre os elementos */
+      flex-direction: column; /* Mude para um layout de coluna */
+      text-align: center; /* Centralize o texto */
+    }
+  
+    .texto-apresentacao-hello {
+      font-size: 50px; /* Reduza o tamanho da fonte */
+    }
+  
+    .texto-apresentacao-descricao {
+      font-size: 18px; /* Reduza o tamanho da fonte */
+    }
+  
+    .minha-imagem {
+      width: 200px; /* Reduza o tamanho da imagem */
+      height: 200px; /* Reduza o tamanho da imagem */
+      margin-top: 20px; /* Reduza a margem superior */
+    }
+  
+    .about {
+      padding: 20px; /* Reduza o preenchimento */
+    }
+  
+    .about h1 {
+      font-size: 2em; /* Reduza o tamanho do título */
+    }
+  
+    .about p {
+      font-size: 1.2em; /* Reduza o tamanho do texto */
+      padding: 20px; /* Reduza o preenchimento */
+    }
+  
+    .footer p {
+      font-size: 20px; /* Reduza o tamanho do texto no rodapé */
+    }
+  
+    .icon-1,
+    .icon-2,
+    .icon-3,
+    .icon-4 {
+      width: 30px; /* Reduza o tamanho dos ícones de mídia social */
+      height: 30px; /* Reduza o tamanho dos ícones de mídia social */
+    }
+  }
+  
+  /* Estilos para telas de smartphones (largura máxima de 480px) */
   @media (max-width: 480px) {
-
     section.page-1{
 
         margin-top: 150px;
@@ -438,71 +504,67 @@ section.page-1{
     }
 
     .btn-mode {
-      width: 35px; 
-      height: 15px; 
+      width: 35px;
+      height: 18px; 
     }
   
     .btn-mode:before {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        left: -30px;
-
+      width: 20px; 
+      height: 20px; 
     }
   
     .apresentacao {
-      margin-top: -100px; 
-      gap: 10px; 
-      margin-bottom: -200px;
-    }
-
-    .texto-apresentacao{
-        width: 100%;
-        height: 800px;
-    }
+        margin-top: -100px; 
+        gap: 10px; 
+        margin-bottom: -200px;
+      }
   
-    .texto-apresentacao-hello {
-      font-size: 40px; 
-    }
+      .texto-apresentacao{
+          width: 100%;
+          height: 800px;
+      }
+    
+      .texto-apresentacao-hello {
+        font-size: 40px; 
+      }
+    
+      .texto-apresentacao-descricao {
+        font-size: 16px;
+      }
+    
+      .minha-imagem {
+        width: 150px;
+        height: 150px;  
+        margin-top: -620px; 
+      }
+    
+      .onda{
+          width: 100%;
   
-    .texto-apresentacao-descricao {
-      font-size: 16px;
-    }
-  
-    .minha-imagem {
-      width: 150px;
-      height: 150px;  
-      margin-top: -620px; 
-    }
-  
-    .onda{
-        margin-bottom: 1px;
-        width: 414px;
-
-    }
-    .about {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .about h1 {
-      font-size: 1.5em; 
-    }
-  
-    .about p {
-      font-size: 1em; 
-      padding: 10px; 
-    }
-  
-    .footer p {
-      font-size: 16px; /* Reduza ainda mais o tamanho do texto no rodapé */
-    }
-  
-    .icon-1,
-    .icon-2,
-    .icon-3,
-    .icon-4 {
-      width: 30px; 
-    }
+      }
+      .about {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    
+      .about h1 {
+        font-size: 1.5em; 
+      }
+    
+      .about p {
+        font-size: 1em; 
+        padding: 10px; 
+      }
+    
+      .footer p {
+        font-size: 16px; /* Reduza ainda mais o tamanho do texto no rodapé */
+      }
+    
+      .icon-1,
+      .icon-2,
+      .icon-3,
+      .icon-4 {
+        width: 30px; 
+      }
 }
