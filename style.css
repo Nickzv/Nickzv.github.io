@@ -440,11 +440,11 @@ section.page-1{
   .btn-mode:before {
 
     content: '';
-    position: relative; 
     width: 20px;
     height: 20px;
-    display: inline-block;
+    display: inline-block; 
     vertical-align: middle;
+    margin-left: 20px;
     left: 1%;
   }
   
