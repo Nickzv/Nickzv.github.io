@@ -444,7 +444,8 @@ section.page-1{
     height: 20px;
     display: inline-block; 
     vertical-align: middle;
-    margin-left: 20px;
+    margin-left: 18px;
+    margin-top: -1px;
     left: 1%;
   }
   
