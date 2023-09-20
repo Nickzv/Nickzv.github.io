@@ -415,7 +415,7 @@ section.page-1{
   @media (max-width: 480px) {
 
   section.page-1{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 180px;
   }
 
@@ -437,11 +437,18 @@ section.page-1{
   }
   
   .btn-mode:before {
-    width: 20px; 
-    height: 20px; 
-    padding-left: 1px;
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url('sol-mode.png');
+    background-color: #000;
+    background-size: cover;
+    top: 50%;
+    left: 9%;
+    transform: translate(-50%, -50%);
   }
-  
+
   .apresentacao {
     margin-top: -100px; 
     gap: 10px; 
