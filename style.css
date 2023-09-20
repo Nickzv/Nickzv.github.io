@@ -414,7 +414,7 @@ section.page-1{
     }
   }
   
-  /* Estilos para telas de smartphones (largura máxima de 480px) */
+
   @media (max-width: 480px) {
 
     section.page-1{
@@ -438,13 +438,12 @@ section.page-1{
     }
 
     .btn-mode {
-      position: relative;
       width: 35px; 
       height: 15px; 
     }
   
     .btn-mode:before {
-        position: absolute;
+        position: relative;
         width: 20px;
         height: 20px;
 
