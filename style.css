@@ -481,26 +481,25 @@ section.page-1{
     }
   }
   
-  /* Estilos para telas de smartphones (largura máxima de 480px) */
+
   @media (max-width: 480px) {
+    
     section.page-1{
 
-        margin-top: 150px;
-        margin-bottom: 140px;
+    margin-top: 100px;
+    margin-bottom: 150px;
     }
 
-
-
     .header-nav {
-      gap: 140px; 
+    gap: 140px; 
     }
   
     .ul-nav {
-      gap: 20px; 
+    gap: 20px; 
     }
   
     .li{
-        font-size: 12px;
+      font-size: 12px;
     }
 
     .btn-mode {
@@ -511,6 +510,7 @@ section.page-1{
     .btn-mode:before {
       width: 20px; 
       height: 20px; 
+      padding-left: 1px;
     }
   
     .apresentacao {
@@ -539,7 +539,7 @@ section.page-1{
       }
     
       .onda{
-          width: 100%;
+          width:  0%;
   
       }
       .about {
