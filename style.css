@@ -349,7 +349,7 @@ section.page-1{
 
   @media (max-width: 768px) {
     .header-nav {
-      gap: 20px; /* Reduza o espaçamento entre os itens do menu */
+      gap: 280px; /* Reduza o espaçamento entre os itens do menu */
     }
   
     .ul-nav {
@@ -387,6 +387,11 @@ section.page-1{
       margin-top: 20px; 
     }
   
+    .onda{
+      width:  0%;
+      opacity: 0;
+    
+    }
     .about {
       padding: 20px; 
     }
@@ -444,8 +449,8 @@ section.page-1{
     height: 20px;
     display: inline-block; 
     vertical-align: middle;
-    margin-left: 18px;
-    margin-top: -1px;
+    margin-left: 17px;
+    margin-top: -2px;
     left: 1%;
   }
   
