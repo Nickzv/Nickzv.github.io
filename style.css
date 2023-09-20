@@ -438,7 +438,6 @@ section.page-1{
   
   .btn-mode:before {
     content: '';
-    position: absolute;
     width: 20px;
     height: 20px;
     background: url('sol-mode.png');
