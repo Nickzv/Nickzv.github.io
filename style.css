@@ -433,20 +433,21 @@ section.page-1{
 
   .btn-mode {
     width: 35px;
-    height: 18px; 
+    height: 18px;
   }
   
+
   .btn-mode:before {
+
     content: '';
+    position: relative; 
     width: 20px;
     height: 20px;
-    background: url('sol-mode.png');
-    background-color: #000;
-    background-size: cover;
-    top: 50%;
-    left: 9%;
-    transform: translate(-50%, -50%);
+    display: inline-block;
+    vertical-align: middle;
+    left: 1%;
   }
+  
 
   .apresentacao {
     margin-top: -100px; 
